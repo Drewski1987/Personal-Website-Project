@@ -1,0 +1,48 @@
+header {
+    
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-block: 1px;
+}
+
+
+
+body {
+    background-color: rgb(12, 12, 226);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+}
+
+p   {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1  {
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+a   {
+    color: white;
+}
+
+img {
+    margin-left: 1000px;
+}
+
+nav {
+    box-shadow: 0 0 12px -2px black;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
