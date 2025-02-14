@@ -5,7 +5,6 @@ header {
     background-color: black;
     padding: 30px;
     margin-block: 1px;
-    
 }
 
 img {
@@ -15,7 +14,7 @@ img {
     
 
 body {
-    background-color: blue;
+    background-color: rgb(12, 12, 226);
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
