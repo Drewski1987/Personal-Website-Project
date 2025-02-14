@@ -1,0 +1,23 @@
+header {
+    
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-block: 1px;
+    
+}
+
+img {
+   width: 10px;
+   max-width: min-content;
+}
+    
+
+body {
+    background-color: blue;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
