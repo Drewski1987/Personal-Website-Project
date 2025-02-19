@@ -22,6 +22,7 @@ body {
 p   {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
 }
 
 h1  {
@@ -30,8 +31,8 @@ h1  {
 
 .active {
     color: white;
-    
-    justify-content: flex-end;
+    animation: scroll-left 15s linear infinite;
+   
 }
 
 a   {
@@ -42,6 +43,7 @@ a   {
 
 img {
     margin-left: 1000px;
+    
 }
 
 nav {
@@ -52,9 +54,9 @@ nav {
 
 div {
    
-    display: block;
-    unicode-bidi: isolate;
+ 
     
+    flex-direction: row;
 
 }
 
