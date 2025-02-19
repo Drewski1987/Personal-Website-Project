@@ -1,10 +1,12 @@
 header {
     
+    
     font-size: larger;
     color: white;
     background-color: black;
     padding: 30px;
     margin-block: 1px;
+    
 }
 
 
@@ -28,10 +30,14 @@ h1  {
 
 .active {
     color: white;
+    
+    justify-content: flex-end;
 }
 
 a   {
     color: white;
+    
+    
 }
 
 img {
@@ -40,9 +46,15 @@ img {
 
 nav {
     box-shadow: 0 0 12px -2px black;
+    
+    
 }
 
 div {
+   
     display: block;
     unicode-bidi: isolate;
+    
+
 }
+
