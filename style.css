@@ -60,3 +60,40 @@ div {
 
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+    gap: 10px;
+    align-items: stretch;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+    margin-left: 10%;
+    height: calc(70% + 80px);
+    
+}
+
+@media (max-width:800px) {
+    body{
+        background-color: black;
+    }
+    section{
+        background-color: green;
+    }
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+section:nth-child(odd){
+    background-color: goldenrod;
+}
+
+section:hover{
+    background-color:maroon;
+}
