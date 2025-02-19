@@ -73,6 +73,7 @@ form {
     flex-direction: column;
     margin-right: 50%;
     margin-left: 10%;
+    height: calc(70% + 80px);
     
 }
 
